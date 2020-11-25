@@ -23,7 +23,7 @@ It uses [yarn as a package manager](https://www.gatsbyjs.com/docs/glossary/yarn/
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-default-starter/
+    cd project-name/
     gatsby develop
     ```
 
