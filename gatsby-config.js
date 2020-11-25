@@ -19,7 +19,7 @@ module.exports = {
 
     // Source plugins. the "name" option translates to
     // sourceInstanceName parameter of file nodes in GraphQL
-    {
+    { // Keep images first for gatsby-remark-images support
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
@@ -81,7 +81,7 @@ module.exports = {
 
     "gatsby-plugin-postcss",
 
-    // NetlifyCMS
+    // NetlifyCMS - keep this last in the array
     `gatsby-plugin-netlify-cms`
   ],
 }
