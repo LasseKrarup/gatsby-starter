@@ -6,6 +6,10 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+# Use this to disable the editor preview. Can also be used exclusively
+# for one or more collections. To do that, move/copy this to the collection(s) you
+# wish to disable the editor for, and remember to indent it to match the
+# indentation of the collection
 editor:
   preview: false
 
@@ -16,12 +20,9 @@ collections:
     label: "Blog"
     folder: "content/blog"
     create: true
-    slug: "index"
+    slug: "{{day}}{{month}}{{year}}-{{slug}}"
     media_folder: ""
     public_folder: ""
-    path: "{{title}}/index"
-    editor:
-      preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
