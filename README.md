@@ -86,7 +86,7 @@ A quick look at the top-level files and directories you'll see in this particula
 
 15. **`tailwind.config.js`**: Configuration file for TailwindCSS. See https://tailwindcss.com/docs/configuration for more info on how to configure TailwindCSS
 
-16. **`yarn.lock`**: This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
+16. **`yarn.lock`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
 ## 🎓 Learning Gatsby
 
