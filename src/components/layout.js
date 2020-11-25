@@ -27,11 +27,7 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
+        className="my-0 mx-auto max-w-screen-lg py-0 pl-4 pr-6"
       >
         <main>{children}</main>
         <footer style={{
